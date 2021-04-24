@@ -9,4 +9,4 @@ For a given dataset, a feature is an independent variable and the response is th
 
 In Linear Regression, it is assumed that the two variables have a linear relationship (hence the name). The object of this method is to find a linear function, that predicts the response value for a particular feature value as accurately as possible.
 
-If the various points are plotted on a scatter plot, the problem of Linear Regression basically asks us: what is the line that best fits the above scatter plot, by minimising the inaccuraccy?
+If the various points are plotted on a scatter plot, the problem of Linear Regression basically asks us: what is the line that best fits the above scatter plot, by minimising the inaccuraccy.
