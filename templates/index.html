@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>File Upload</title>
+    </head>
+    <body>
+        <h1>File Upload</h1>
+        <form method="POST" action="" enctype="multipart/form-data">
+            <p><input type="file" name="file1"></p>
+            <p><input type="file" name="file2"></p>
+            <p><input type="submit" value="Submit"></p>
+        </form>
+        {% if image %}
+        <img src="{{ image }}" alt="Rendered image" height="500" width="500">
+        {% endif %}
+    </body>
+</html>
